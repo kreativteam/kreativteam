@@ -1,3 +1,4 @@
+/*
 jQuery(document).ready(function ($) {
     "use strict";
 
@@ -97,4 +98,20 @@ jQuery(document).ready(function ($) {
         return false;
     });
 
+});*/
+var reciever = "johannes.teklote@web.de";
+
+$('#send').on('click', function () {
+    var name = $('#name').val();
+    var email = $('#email').val();
+    var subject = $('#subject').val();
+    var content = $('#content').val();
+
+
+    var link = "mailto:" + reciever
+        + "&subject=" + escape(subject)
+        + "&body=" + escape(name + "(" + email + ") schrieb: \n" + content)
+    ;
+
+    window.location.href = link;
 });
