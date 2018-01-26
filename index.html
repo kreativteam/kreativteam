@@ -455,44 +455,57 @@
 
 <!--========== FOOTER ==========-->
 <footer class="footer">
-    <!-- Links -->
-    <div class="section-seperator">
-        <div class="content-md container">
-            <div class="row">
-                <div class="col-sm-2 sm-margin-b-30">
-                    <!-- List -->
-                    <ul class="list-unstyled footer-list">
-                        <li class="footer-list-item"><a href="#body">Home</a></li>
-                        <li class="footer-list-item"><a href="#about">Team</a></li>
-                        <li class="footer-list-item"><a href="#work">Credentials</a></li>
-                        <li class="footer-list-item"><a href="#contact">Contact</a></li>
-                    </ul>
-                    <!-- End List -->
-                </div>
-                <div class="col-sm-2 sm-margin-b-30">
-                    <!-- List -->
-                    <ul class="list-unstyled footer-list">
-                        <li class="footer-list-item"><a href="#">Twitter</a></li>
-                        <li class="footer-list-item"><a href="#">Facebook</a></li>
-                        <li class="footer-list-item"><a href="#">Instagram</a></li>
-                        <li class="footer-list-item"><a href="#">YouTube</a></li>
-                    </ul>
-                    <!-- End List -->
-                </div>
-                <div class="col-sm-3">
-                    <!-- List -->
-                    <ul class="list-unstyled footer-list">
-                        <li class="footer-list-item"><a href="#">Subscribe to Our Newsletter</a></li>
-                        <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
-                        <li class="footer-list-item"><a href="#">Terms &amp; Conditions</a></li>
-                    </ul>
-                    <!-- End List -->
-                </div>
+    <!-- Footer -->
+    <section id="contactform" class="section grey">
+        <div class="container">
+            <h4>Kontakt</h4>
+            <p>
+                Reque facer nostro et ius, cu persius mnesarchum disputando eam, clita prompta et mel vidisse phaedrum pri et. Facilisis
+                posidonium ex his. Mutat iudico vis in, mea aeque tamquam scripserit an, mea eu ignota viderer probatus. Lorem legere
+                consetetur ei eum. Sumo aeque assentior te eam, pri nominati posidonium consttuam
+            </p>
+            <div class="blankdivider30">
             </div>
-            <!--// end row -->
+            <div class="row">
+                <div class="span12">
+                    <div class="cform" id="contact-form">
+                        <div id="sendmessage">Deine Nachricht wurde versendet. Vielen Dank!</div>
+                        <div id="errormessage"></div>
+                        <form action="" method="post" role="form" class="contactForm">
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="field your-name form-group">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Dein Name" data-rule="minlen:4" data-msg="Bitte gebe mindestens 4 Zeichen ein"
+                                        />
+                                        <div class="validation"></div>
+                                    </div>
+                                    <div class="field your-email form-group">
+                                        <input type="text" class="form-control" name="email" id="email" placeholder="Deine Email" data-rule="email" data-msg="Bitte gebe eine gültige E-Mail Adresse ein"
+                                        />
+                                        <div class="validation"></div>
+                                    </div>
+                                    <div class="field subject form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Betreff" data-rule="minlen:4" data-msg="Bitte gebe mindestens 8 Zeichen ein"
+                                        />
+                                        <div class="validation"></div>
+                                    </div>
+                                </div>
+                                <div class="span6">
+                                    <div class="field message form-group">
+                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Nachricht"></textarea>
+                                        <div class="validation"></div>
+                                    </div>
+                                    <input type="submit" value="Sende Nachricht" class="btn btn-theme pull-left">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- ./span12 -->
+            </div>
         </div>
-    </div>
-    <!-- End Links -->
+    </section>
+    <!-- End Footer -->
 
     <!-- Copyright -->
     <div class="content container">
