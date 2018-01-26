@@ -114,4 +114,5 @@ $('#send').on('click', function () {
     ;
 
     window.location.href = link;
+    return false;
 });
