@@ -2,8 +2,8 @@
 if(isset($_POST['email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "webmaster@wolf-im-blut.de";
-    $email_subject = "Wolf-im-Blut Kontaktformular";
+    $email_to = "johannes.teklote@web.de";
+    $email_subject = "KreativTeam Kontaktformular";
 
     function died($error) {
         // your error code can go here
