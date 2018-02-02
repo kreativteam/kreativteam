@@ -336,7 +336,7 @@
     <div class="map height-300" style="width: 100%">
         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCdpVAa5L4aQx7ePtguhvOqvRmZA4sAkos'></script>
         <div style='overflow:hidden; height: 300px; width: 100%;'>
-            <div id='gmap_canvas' style='height:300px;width:1920px;'></div>
+            <div id='gmap_canvas' style='height:300px; width: 100%;'></div>
             <style>#gmap_canvas img {
                 max-width: none !important;
                 background: none !important
@@ -349,7 +349,7 @@
         <script type='text/javascript'>function init_map() {
             var myOptions = {
                 zoom: 13,
-                center: new google.maps.LatLng(51.4937505, 7.47515600000002),
+                center: new google.maps.LatLng(51.4937505, 7.42015600000002),
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
             map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
