@@ -1,5 +1,7 @@
-# Kreativteams Webside 
+# Kreinns Webside 
 
-[Commitpreview](https://kreativteam.netlify.com/) 
+Dies ist die Webseite der IT-Beratung **kreinn**
 
-[Webside](www.kreinn.de)
+Für neue Entwicklungen steht hier eine [Commitpreview](https://kreativteam.netlify.com/) bereit. 
+
+Die [Webside](www.kreinn.de) finden Sie hier.
