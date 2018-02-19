@@ -378,8 +378,8 @@
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
             map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-            marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(51.4937505, 7.42015600000002)});
-            infowindow = new google.maps.InfoWindow({content: '<strong>FH Dortmund</strong><br>Emil-Figge-Straße 42<br>44227 Dortmund<br>'});
+            marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(51.5594964,7.58930092568296)});
+            infowindow = new google.maps.InfoWindow({content: '<strong>KreInn</strong><br>Rumpstraße 15<br>44319 Dortmund<br>'});
             google.maps.event.addListener(marker, 'click', function () {
                 infowindow.open(map, marker);
             });
