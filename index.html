@@ -384,12 +384,12 @@
         <script type='text/javascript'>function init_map() {
             var myOptions = {
                 zoom: 13,
-                center: new google.maps.LatLng(51.4937505, 7.42015600000002),
+                center: new google.maps.LatLng(51.5594964, 7.58930092568296),
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
             map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-            marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(51.4937505, 7.42015600000002)});
-            infowindow = new google.maps.InfoWindow({content: '<strong>FH Dortmund</strong><br>Emil-Figge-Straße 42<br>44227 Dortmund<br>'});
+            marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(51.5594964,7.58930092568296)});
+            infowindow = new google.maps.InfoWindow({content: '<strong>KreInn</strong><br>Rumpstraße 15<br>44319 Dortmund<br>'});
             google.maps.event.addListener(marker, 'click', function () {
                 infowindow.open(map, marker);
             });
@@ -408,35 +408,8 @@
     <div class="section-seperator">
         <div class="content-md container">
             <div class="row">
-                <div class="col-sm-2 sm-margin-b-30">
-                    <!-- List -->
-                    <ul class="list-unstyled footer-list">
-                        <li class="footer-list-item"><a href="#body">Home</a></li>
-                        <li class="footer-list-item"><a href="#about">Team</a></li>
-                        <li class="footer-list-item"><a href="#work">Credentials</a></li>
-                        <li class="footer-list-item"><a href="#contact">Contact</a></li>
-                    </ul>
-                    <!-- End List -->
-                </div>
-                <div class="col-sm-2 sm-margin-b-30">
-                    <!-- List -->
-                    <ul class="list-unstyled footer-list">
-                        <li class="footer-list-item"><a href="#">Twitter</a></li>
-                        <li class="footer-list-item"><a href="#">Facebook</a></li>
-                        <li class="footer-list-item"><a href="#">Instagram</a></li>
-                        <li class="footer-list-item"><a href="#">YouTube</a></li>
-                    </ul>
-                    <!-- End List -->
-                </div>
-                <div class="col-sm-3">
-                    <!-- List -->
-                    <ul class="list-unstyled footer-list">
-                        <li class="footer-list-item"><a href="#">Subscribe to Our Newsletter</a></li>
-                        <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
-                        <li class="footer-list-item"><a href="#">Terms &amp; Conditions</a></li>
-                    </ul>
-                    <!-- End List -->
-                </div>
+                <div class="col-sm-4 col-sm-offset-2">Erstellt von <a href="https://www.kreinn.de">kreinn.de</a></div>
+                <div class="col-sm-4"><a href="imprint.html">Impressum</a></div>
             </div>
             <!--// end row -->
         </div>
