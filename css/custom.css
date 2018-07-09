@@ -9,6 +9,21 @@
     font-size: 16px;
 }
 
+.navbar-kreinn {
+    background-color: white;
+    height: 50px;
+    border-bottom: 1px solid darkgray;
+}
+
+.image-kreinn {
+    height: 120px;
+    margin-top: -30px;
+}
+
+.active .nav-item-hover {
+    color: red;
+}
+  
 .img-inverted {
     -webkit-filter: invert(1);
     filter: invert(1);
