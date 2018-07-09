@@ -22,4 +22,13 @@
 
 .active .nav-item-hover {
     color: red;
+  
+.img-inverted {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.img-reference {
+    margin-left: auto;
+    margin-right: auto;
 }
